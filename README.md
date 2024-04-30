@@ -479,3 +479,4 @@ const cat = new Animal(5);
 boundFuncTimer(dog, dog.growOlder, 5000); // in 5 seconds prints: 2
 boundFuncTimer(cat, dog.growOlder, 7000); // in 7 seconds prints: 6
 ```
+# aa04-contex
