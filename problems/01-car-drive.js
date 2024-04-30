@@ -1,5 +1,21 @@
 // Your code here
-test.
+class Car {
+
+	constructor (speed = 0) {
+
+		this.speed = speed;
+
+	}
+
+	drive(newSpeed) {
+
+		this.speed = newSpeed;
+
+		return this.speed;
+
+	}
+	
+}
 /*****************************************************************************/
 /***************** DO NOT MODIFY ANYTHING UNDER THIS LINE ********************/
 
