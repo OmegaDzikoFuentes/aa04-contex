@@ -1,5 +1,6 @@
 function bindToAnArg(func, arg) {
-  // Your code here 
+  const bound = func.bind(null, arg)
+  return bound
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
